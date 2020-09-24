@@ -10,5 +10,7 @@ spec:
   http:
   - route:
     - destination:
+        port:
+          number: 8080
         host: front-end.production.svc.cluster.local
-        subset: v1
+        
