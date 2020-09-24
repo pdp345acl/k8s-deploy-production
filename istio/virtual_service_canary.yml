@@ -6,6 +6,8 @@ metadata:
 spec:
   hosts:
   - front-end.production.svc.cluster.local
+  gateways:
+  - sockshop-gateway
   http:
   - match:
     - uri:
